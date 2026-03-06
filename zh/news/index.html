@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <base href="/UPC-LLM/">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>News | UPC-LLM</title>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="container">
+    <h1>新闻动态</h1>
+    <div id="list"></div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/include.js"></script>
+  <script>
+    fetch("/UPC-LLM/data/news.zh.json").then(r => r.json()).then(items => {
+      const el = document.getElementById("list");
+      if (!items.length) { el.innerHTML = "<p>Coming soon.</p>"; return; }
+      el.innerHTML = items.map(n => `
+        <article class="card">
+          <div class="meta">${n.date || ""}</div>
+          <h3>${n.title || ""}</h3>
+          <p>${n.summary || ""}</p>
+        </article>
+      `).join("");
+    });
+  </script>
+</body>
+</html>

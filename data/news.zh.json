@@ -1,0 +1,27 @@
+
+[
+  {
+    "date": "2026-03-06",
+    "title": "课题组网站上线",
+    "summary": "UPC-LLM 课题组网站正式上线。",
+    "link": "",
+    "tags": ["网站"],
+    "pinned": true
+  },
+  {
+    "date": "2026-02-02",
+    "title": "论文录用",
+    "summary": "XX 论文被 Nature 录用，祝贺XX！",
+    "link": "",
+    "tags": ["论文"],
+    "pinned": false
+  },
+  {
+    "date": "2026-01-01",
+    "title": "论文录用",
+    "summary": "XX 论文被 Since 录用，祝贺XX！",
+    "link": "",
+    "tags": ["论文"],
+    "pinned": false
+  }
+]

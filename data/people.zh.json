@@ -1,0 +1,30 @@
+
+{
+  "leader": {
+    "name": "焦博韬",
+    "photo": "img/jiaobotao.png",
+    "homepage": "https://computer.upc.edu.cn/2024/0912/c20895a439811/page.htm",
+    "email": "jesenbt@qq.com",
+    "bio": "焦博韬，博士。2019年6月毕业于中国矿业大学电气工程及其自动化专业，获工学学士学位；2024年6月毕业于中国矿业大学控制科学与工程专业，获工程博士学位；2022年11月~2023年12月赴新西兰维多利亚大学（Victoria University of Wellington）交流学习一年，导师为新西兰皇家科学院院士Mengjie Zhang。2024年6月入职中国石油大学（华东）青岛软件学院、计算机科学与技术学院。担任TNNLS、TEVC、TCYB、TAI等国际期刊、会议的审稿人。谷歌学术：https://scholar.google.com/citations?user=SQzAshEAAAAJ&hl=zh-CN&oi=ao"
+  },
+  "phd": [
+    {
+      "name": "张保滨",
+      "photo": "img/zhangbaobin.jpg",
+      "homepage": "https://computer.upc.edu.cn/2024/0912/c20895a439811/page.htm"
+    }
+  ],
+  "master": [
+    {
+      "name": "硕士生A",
+      "photo": "img/ms-a.jpg"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "已毕业同学A",
+      "destination": "去向：某公司 / 某高校",
+      "year": 2024
+    }
+  ]
+}
